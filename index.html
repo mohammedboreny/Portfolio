@@ -7,12 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css
+
+
+
+    ">
     <style>
         body {
+
             border: o;
             margin: 0;
             padding: 0;
             background-color: black;
+
         }
     </style>
 </head>
@@ -21,7 +28,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black ">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-lg-top sticky-mid-top sticky-sm-top ">
 
             <div class="container justify-content-center">
                 <a class="navbar-brand" href="#"># Mohammed Abd Alziz</a>
@@ -36,13 +43,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">expertise</a>
+                            <a class="nav-link" href="#exp">expertise</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">education</a>
+                            <a class="nav-link" href="#edu">achievements</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">contact</a>
+                            <a class="nav-link" href="#con">contact</a>
                         </li>
                     </ul>
                 </div>
@@ -54,41 +61,39 @@
 
 
 
+
+        <!-- Home background And brief Content  -->
         <div class="container-fluid">
 
-            <!-- Home background And brief Content  -->
-            <div class="container-fluid">
 
+            <!-- <img src="./3akVAln.jpg" alt="" class="bg-lg-image opacity-75 " style="height: 100vh; width: 100%;"> -->
+            <div class="position-relative text-white">
+                <div class="row-md-1 row-lg-1 row-lg-1">
+                    <img src="./3akVAln.jpg" alt="" class="bg-lg-image opacity-50 " style="height: 100vh; width: 100%;">
 
-                <!-- <img src="./3akVAln.jpg" alt="" class="bg-lg-image opacity-75 " style="height: 100vh; width: 100%;"> -->
-                <div class="position-relative text-white">
-                    <div class="row-md-1 row-lg-1 row-lg-1">
-                        <img src="./3akVAln.jpg" alt="" class="bg-lg-image opacity-50 "
-                            style="height: 100vh; width: 100%;">
-
-                        <h2 class="position-absolute top-50" style="left:40%"><span style>Mohammed Abd Alziz</span></h2>
-                        <p class="position-absolute top-50" style="left:40%"> <br> <br>SOFTWARE ENGINEER, FRONT END &
-                            APP DEVELOPER.
-                        </p>
-                    </div>
-
+                    <h2 class="position-absolute top-50" style="left:40%"><span style>Mohammed Abd Alziz</span></h2>
+                    <p class="position-absolute top-50" style="left:40%"> <br> <br>SOFTWARE ENGINEER, FRONT END &
+                        APP DEVELOPER.
+                    </p>
                 </div>
-            </div>
-            <br><br><br><br><br><br><br>
-            <!-- Skill section--------------- -->
-            <br><br><br><br>
-            <div class=" text-center text-white">
-                <h1>My Expertise
-                </h1>
 
             </div>
+        </div>
+        <br><br><br><br><br><br><br>
+        <!-- Skill section--------------- -->
+        <br><br><br><br>
+        <div class=" text-center text-white" id="exp">
+            <h1>My Expertise
+            </h1>
+
+        </div>
 
         </div>
         <br><br><br><br><br><br><br><br>
         <div class="container">
-            <div class="row row-sm-1 justify-content-between">
-                <div class="card col-lg-1 row-cols-sm-1  " style="width: 18rem;">
-                    <img class="card-img-top" src="./Softwere.png" alt="Card image cap">
+            <div class="row row-sm-1 justify-content-center">
+                <div class="card col-lg-1 row-cols-sm-1  " style="width: 18rem; border: 2px black solid;">
+                    <img class="card-img-top " src="./Softwere.png" alt="Card image cap">
                     <div class="card-body col-lg">
                         <h5 class="card-title">Software
                             Development</h5>
@@ -97,7 +102,7 @@
 
                     </div>
                 </div>
-                <div class="card col-lg-2 row-cols-sm-1 " style="width: 18rem;">
+                <div class="card col-lg-2 row-cols-sm-1 " style="width: 18rem;border: 2px black solid;">
                     <img class="card-img-top" src="./HTMLCSSJS.png" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Frontend Dev
@@ -107,7 +112,7 @@
 
                     </div>
                 </div>
-                <div class="card col-lg-3 row-cols-sm-1" style="width: 18rem;">
+                <div class="card col-lg-3 row-cols-sm-1" style="width: 18rem;border: 2px black solid;">
                     <img class="card-img-top" src="./Bar chart.jpg" alt="Card image cap" style="padding-top:18% ;">
                     <br>
                     <div class="card-body">
@@ -123,30 +128,38 @@
         <br><br><br><br><br><br>
         <!-- Education an certifications -->
 
-        <div class="container-fluid">
-            <div class="row justify-content-evenly">
+        <div class="container-fluid" id="edu">
+            <div class="row justify-content-center">
                 <img class="col-1" src=".//Profle.jpg" alt="" style="margin-right: 2rem; width:500px ;height:400px">
-                <div class="col-2 h-50">
-                    <p class=" text-white">Deployed scalable travel, event and telemedicine web and hybrid mobile apps using React SPA and PWA.
-                        Collaborated in 140+ projects with 50+ clients all around the world. I am also interested in data analytics and visualization.
+                <div class="col-2 col-4 h-50">
+                    <p class=" text-white fs-4">Deployed scalable travel, event and telemedicine web and hybrid mobile
+                        apps using React SPA and PWA.
+                        Collaborated in 140+ projects with 50+ clients all around the world. I am also interested in
+                        data analytics and visualization.
                     </p>
-                    <button>Click here</button>
                 </div>
             </div>
         </div>
         </div>
         <br><br><br><br><br><br>
         <!-----------------------contact Info ------------------------ -->
-        <div class="container-fluid ">
-            <p class="text-center text-white fw-bolder ">Start aligned text on viewports sized LG (large) or wider.
-            </p>
-            <p class="text-center text-white ">Start aligned text on viewports sized LG (large) or wider.</p>
-
 
         </div>
+        <div class="container-fluid">
+            <div class="row-cols-auto ">
+                <div class="col-lg-6-12">
+                    <p class="text-center text-white fw-bolder ">Feel free to contact me through these links.
+                    </p>
 
+                    <div class=" col-1-12 text-md-center">
+
+                        <a href=""><img class=" " src="./github.png" alt="" width="50px"></a>
+                        <a href=""><img class=" col" src="./linkedin.png" alt="" width="50px"></a>
+                        <a href=""><img class="col-3-5" src="./search.png" alt="" width="50px"></a>
+                    </div>
+                </div>
+            </div>
         </div>
-
 
 
 </body>
