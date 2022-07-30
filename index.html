@@ -32,9 +32,15 @@
 
         }
 
+        .nav-link:hover {
+
+            text-shadow: 1px 1px yellow;
+        }
+
         .nav-link {
             text-decoration: double !important;
             color: white !important;
+
 
         }
 
@@ -44,10 +50,10 @@
             text-shadow: 1px 1px yellow;
         }
 
-        #headLine {
+        .headLineStyle {
             font-style: italic;
             font-weight: 400 !important;
-            text-shadow: 1px 1px blueviolet;
+            text-shadow: 1px 1px yellow;
         }
     </style>
 </head>
@@ -56,13 +62,13 @@
 
     <script src="./js/bootstrap.js"></script>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-lg-top sticky-mid-top sticky-sm-top ">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-lg-top sticky-mid-top ">
 
             <div class="container justify-content-center">
-                <a class="navbar-brand" href="#">./Mohammed Abd Al-aziz</a>
+                <a class="navbar-brand">./Mohammed Abd Al-aziz</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation ">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -116,7 +122,7 @@
 
             <div class="row row-sm-1 justify-content-center">
 
-                <h1 class=" text-center text-white" id="exp">My Expertise
+                <h1 class=" text-center text-white headLineStyle" id="exp">My Expertise
                 </h1>
                 <div class="card col-lg-1 row-cols-sm-1  " style="width: 18rem; border: 2px black solid;">
                     <img class="card-img-top " src="./Softwere.png" alt="Card image cap">
@@ -162,7 +168,7 @@
 
             <br> <br>
             <div class="row justify-content-center">
-                <h1 class="text-center text-light" id="headLine">Achievements</h1>
+                <h1 class="text-center text-light headLineStyle">Achievements</h1>
                 <img class="col-1" src=".//Profle.jpg" alt="" style="margin-right: 2rem; width:500px ;height:400px">
                 <div class="col-2 col-4 h-50">
                     <p class=" text-white fs-4">Deployed scalable travel, event and telemedicine web and hybrid mobile
