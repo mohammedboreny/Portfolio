@@ -2,7 +2,7 @@
 _A responsive static web application that present my skills, my experiences and achievements gathered into a form of Portfolio._
 ## Portfolio Wireframe image:
 
-![Wirframe image](./image%202.png "Wirframe image ")
+![Wireframe image](./Frame%202.png "Wireframe image ")
 
 ## Portfolio Mockup image:
 
