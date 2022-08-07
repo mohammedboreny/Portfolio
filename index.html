@@ -58,7 +58,34 @@
         }
 
         .homeBg {
-            background-image: url('./black1.jpg');
+            background-image: url('./images/black1.jpg');
+
+        }
+
+        .animate-charcter {
+            text-transform: uppercase;
+            background-image: linear-gradient(-225deg,
+                    white 0%,
+                    yellow 29%,
+                    white 67%,
+                    #fff800 100%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            color: #fff;
+            background-clip: text;
+            text-fill-color: transparent;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 2s linear infinite;
+            display: inline-block;
+            font-size: 50px;
+        }
+
+        @keyframes textclip {
+            to {
+                background-position: 200% center;
+            }
         }
     </style>
 </head>
@@ -81,7 +108,8 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-black ">
 
             <div class="container justify-content-center">
-                <a class="navbar-brand">./mohammedAbdAl-aziz</a>
+                <a class="navbar-brand"><img src="./For Web/svg/White logo - no background.svg" width="200px"
+                        alt="Logo is here"></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation ">
@@ -116,10 +144,10 @@
 
     <!-- Home background And brief Content  -->
 
-    <div class="container-fluid ratio ratio-21x9 text-center text-light homeBg ">
-        <div class="row-4 justify-content-center top-50 bottom-50">
-            <div class="col  animate__bounce">
-                <h1>Mohammed Abd
+    <div class="container ratio ratio-21x9 text-center text-light homeBg  ">
+        <div class="row justify-content-center top-50 bottom-50">
+            <div class="col-row-sm-1-12  animate__bounce">
+                <h1 class="animate-charcter">Mohammed Abd
                     Al-Aziz</h1>
                 <p>(BACK END, FRONT END,
                     APP DEVELOPER)</p>
@@ -178,8 +206,8 @@
         <div class="row  justify-content-evenly " data-aos="flip-left">
             <h1 class=" text-center text-white headLineStyle p-5 ">My Expertise
             </h1>
-            <div class="card col-lg-1 row-sm-2" style="width: 18rem; border: 2px black solid;">
-                <img class="card-img-top " src="./Softwere.png" alt="Card image cap ">
+            <div class="card col-lg-1 row row-sm-2" style="width: 18rem; border: 2px black solid;">
+                <img class="card-img-top " src="./images/Softwere.png" alt="Card image cap ">
                 <div class="card-body col-lg">
                     <h5 class="card-title">Software
                         Development</h5>
@@ -187,16 +215,16 @@
                         TypeScript.</p>
                 </div>
             </div>
-            <div class="card col-lg-2 row-sm-3 " style="width: 18rem;border: 2px black solid;">
-                <img class="card-img-top" src="./HTMLCSSJS.png" alt="Card image cap">
+            <div class="card col-lg-2 row-cols-md-auto row-sm-3 " style="width: 18rem;border: 2px black solid;">
+                <img class="card-img-top" src="./images/HTMLCSSJS.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Frontend Dev
                         React</h5>
                     <p class="card-text">Passionate about UI/UX. experienced in HTML, CSS, JS and React </p>
                 </div>
             </div>
-            <div class="card col-lg-3 row-cols-sm-1" style="width: 18rem;border: 2px black solid;">
-                <img class="card-img-top" src="./Bar chart.jpg" alt="Card image cap" style="padding-top:18% ;">
+            <div class="card col-lg-3 row-cols-md-auto row-cols-sm-1" style="width: 18rem;border: 2px black solid;">
+                <img class="card-img-top" src="./images/Bar chart.jpg" alt="Card image cap" style="padding-top:18% ;">
                 <br>
                 <div class="card-body">
                     <h5 class="card-title">Data Analysis</h5>
@@ -218,9 +246,9 @@
     <div class="container ">
         <h1 class="text-center text-light headLineStyle p-5 ">Achievements</h1>
         <div class="row justify-content-evenly">
-            <img class="col-lg-2 col-md-auto col-sm-auto img-fluid" src=".//images.png" alt="">
+            <img class="col-lg-4 col-md-auto col-sm-auto img-fluid" src="./images/images.png" alt="">
 
-            <ul class="col-lg-2 col-md-auto col-sm-auto text-white fs-5">
+            <ul class="col-lg-4 col-md-auto col-sm-auto text-white fs-4">
                 <li>Deployed scalable travel, event and telemedicine web.</li>
                 <li> Deployed hybridmobile apps using React SPA and PWA.</li>
                 <li> Collaborated in 140+ projects with 50+ clients all around the world.</li>
@@ -244,10 +272,10 @@
     </div>
 
     <div class="container-fluid text-center" id="con">
-        <a href="https://github.com/mohammedboreny"><img class="col " src="./github.png" alt="" width="50px"></a>
-        <a href="https://linkedin.com/in/mohammed-abd-al-aziz-bb9785132"><img class="col" src="./linkedin.png" alt=""
-                width="50px"></a>
-        <a href="mailto:mhmd-Abdalaziz962@gmail.com"><img class="col" src="./search.png" alt="" width="50px"></a>
+        <a href="https://github.com/mohammedboreny"><img class="col " src="./images/github.png" alt="" width="50px"></a>
+        <a href="https://linkedin.com/in/mohammed-abd-al-aziz-bb9785132"><img class="col" src="./images/linkedin.png"
+                alt="" width="50px"></a>
+        <a href="mailto:mhmd-Abdalaziz962@gmail.com"><img class="col" src="./images/search.png" alt="" width="50px"></a>
     </div>
     </div>
     </div>
